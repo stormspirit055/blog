@@ -1,6 +1,7 @@
 module.exports = {
   title: 'storm',
   description: 'storm的学习',
+  base: '/blog',
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }], // 增加一个自定义的 favicon(网页标签的图标)
@@ -31,6 +32,22 @@ module.exports = {
         children: [
             '/sword/section1/README1.md',
             '/sword/section1/README2.md',
+        ]
+      },
+      {
+        title: '第二章',
+        collapsable: true,
+        children: [
+            '/sword/section2/README1.md'
+            // '/sword/section2/README2.md',
+        ]
+      },
+      {
+        title: '第四章',
+        collapsable: true,
+        children: [
+            '/sword/section4/README1.md'
+            // '/sword/section2/README2.md',
         ]
       }
     ]
